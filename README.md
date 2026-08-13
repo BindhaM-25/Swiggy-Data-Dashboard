@@ -1,136 +1,180 @@
-# 🍔 Swiggy Data Dashboard
+# 🍔 Swiggy Sales & Order Analysis Dashboard
 
-## 📊 Swiggy Data Analysis and Visualization using Excel
+## 📊 Project Overview
 
-A data analysis and visualization project built using **Microsoft Excel** to explore Swiggy-related food delivery data and present meaningful insights through an interactive dashboard.
+This project analyzes Swiggy sales and order data to understand overall revenue performance, customer ratings, average order value, order volume, city-level sales contribution, restaurant performance and daily/monthly sales trends.
 
----
+The dashboard provides a management-level view of key business performance indicators and helps identify sales patterns, high-performing markets and opportunities to improve revenue and customer engagement.
 
-## 🎯 Project Objective
+## 🎯 Business Objective
 
-The main objective of this project is to analyze Swiggy food delivery data and convert raw data into meaningful business insights using Excel.
+The primary objective is to evaluate sales and order performance and identify actionable business insights related to:
 
-This project focuses on:
+* Overall sales and revenue performance
+* Customer ratings and satisfaction
+* Average Order Value (AOV)
+* Total order volume
+* Monthly and daily sales trends
+* City-level sales contribution
+* Restaurant-level performance
+* Opportunities to improve revenue and customer engagement
 
-- 📌 Data analysis
-- 📊 Data visualization
-- 📈 Dashboard creation
-- 🔍 Identifying useful patterns and trends
-- 💡 Supporting data-driven decision making
+## 📌 Key KPIs
 
----
+* *Total Sales:* $53.01M
+* *Average Rating:* 4.34
+* *Average Order Value:* $268.51
+* *Ratings Count:* 5.59M
+* *Total Orders:* 197K
 
-## 🛠️ Tools & Technologies
+## 📈 Dashboard Analysis
 
-| Tool | Purpose |
-|---|---|
-| 🟢 Microsoft Excel | Data cleaning, analysis and dashboard |
-| 📋 Excel Dataset | Source data |
-| 📊 Excel Charts | Data visualization |
-| 📌 GitHub | Project documentation and sharing |
+### 1. Total Sales
 
----
+The dashboard reports total sales of approximately *$53.01M*, indicating strong overall revenue generation across the analyzed period.
 
-## 📂 Project Files
+*Business Insight:*
+Total sales provides management with a high-level measure of business performance and can be used as a baseline for evaluating growth, campaigns and market performance.
 
-- `README.md` – 📖 Project documentation
-- `Swiggy Dataset.xlsx` – 📋 Original dataset
-- `Swiggy Data Analysis.xlsx` – 📊 Excel analysis/dashboard workbook
-- `Swiggy Analysis Dashboard.png` – 🖼️ Dashboard preview image
+### 2. Average Rating
 
----
+The dashboard shows an *average customer rating of 4.34*, indicating a strong overall customer experience.
 
-## 🔄 Project Workflow
+*Business Insight:*
+Maintaining a high customer rating can support customer retention, repeat orders and positive brand perception. Management should continue monitoring ratings alongside sales performance.
 
-**Raw Dataset → Data Cleaning → Data Analysis → Charts & KPIs → Dashboard → Insights**
+### 3. Average Order Value
 
-### 1️⃣ Data Collection
-The Swiggy dataset is imported into Microsoft Excel.
+The *Average Order Value is $268.51*.
 
-### 2️⃣ Data Cleaning
-The dataset is checked for:
-- Missing or blank values
-- Duplicate records
-- Incorrect data types
-- Unnecessary columns
-- Inconsistent values
+*Business Insight:*
+A higher order value can directly contribute to revenue growth. Personalized offers, combo promotions, cross-selling and upselling strategies can be used to increase the value of individual orders.
 
-### 3️⃣ Data Analysis
-Excel formulas, filters, pivot tables and other analysis features are used to understand the data.
+### 4. Ratings Count
 
-### 4️⃣ Visualization
-Charts and KPI-style summaries are created to make the information easy to understand.
+The dashboard records approximately *5.59M ratings*, providing a significant volume of customer feedback.
 
-### 5️⃣ Dashboard
-The analyzed information is arranged into a user-friendly Swiggy dashboard.
+*Business Insight:*
+The large number of ratings provides an opportunity to monitor customer sentiment and identify restaurants, cities or service areas that require improvement.
 
----
+### 5. Total Orders
 
-## 📊 Dashboard
+The dashboard shows approximately *197K total orders*.
 
-The dashboard provides a visual summary of the Swiggy data using charts, KPIs and filters.
+*Business Insight:*
+Order volume is an important indicator of customer demand. Management can use order trends to optimize restaurant availability, delivery capacity and promotional activities.
 
-### Key areas of analysis
+## 📅 Monthly Sales Trend
 
-- 🍽️ Food/order-related analysis
-- 📍 Location/city analysis
-- 💰 Sales/revenue-related analysis
-- ⭐ Rating-related analysis
-- 📈 Trend analysis
-- 🏪 Restaurant-related analysis
+The monthly trend visualization shows fluctuations in sales throughout the analyzed period.
 
-> **Note:** The exact metrics displayed depend on the columns available in the dataset and the final Excel dashboard.
+Sales increase during certain months, while other months show a decline.
 
----
+*Business Insight:*
+Monthly fluctuations indicate changing customer demand. Management can use these patterns to plan seasonal campaigns, promotional offers, restaurant partnerships and operational capacity.
 
-## 💡 Project Benefits
+*Management Focus:*
+Identify high-performing months and understand the reasons behind their performance, while developing targeted strategies to improve weaker months.
 
-- Makes large datasets easier to understand
-- Converts raw data into visual information
-- Helps identify trends and patterns
-- Provides a simple business dashboard
-- Demonstrates practical Excel data-analysis skills
+## 🏙️ Top City by Sales
 
----
+The city-level visualization compares sales contribution across different cities.
 
-## 🚀 How to Use
+*Business Insight:*
+Cities contributing higher sales should be treated as priority markets for customer acquisition, restaurant expansion, marketing campaigns and delivery capacity planning.
 
-1. Download or clone this repository.
-2. Open `Swiggy Dataset.xlsx` to view the source data.
-3. Open `Swiggy Data Analysis.xlsx` to view the analysis and dashboard.
-4. Open `Swiggy Analysis Dashboard.png` for a quick preview.
+Lower-performing cities can be investigated to understand whether the reason is lower order volume, limited restaurant availability, customer demand or operational constraints.
 
----
+## 🍽️ Restaurant Performance
 
-## 🖼️ Dashboard Preview
+The dashboard provides a comparison of restaurant-level sales/order performance.
 
-Add the dashboard image to the repository and use:
+*Business Insight:*
+High-performing restaurants can be considered for stronger strategic partnerships, targeted promotions and increased visibility.
 
-```markdown
-![Swiggy Dashboard](Swiggy%20Analysis%20Dashboard.png)
-```
+Restaurants with lower performance can be reviewed based on pricing, ratings, order volume, customer preferences and promotional effectiveness.
 
----
+## 📊 Daily Sales Trend
 
-## 📌 Skills Demonstrated
+The daily trend visualization shows day-to-day changes in sales performance.
 
-- Excel Data Cleaning 🧹
-- Data Analysis 🔎
-- Pivot Tables 📊
-- Excel Charts 📈
-- Dashboard Design 🎨
-- Data Visualization 📉
-- GitHub Project Documentation 📝
+*Business Insight:*
+Daily demand patterns can help management identify high-demand and low-demand periods.
 
----
+This information can be used to:
 
-## 👩‍💻 Author
+* Optimize delivery capacity
+* Plan restaurant staffing
+* Manage delivery partners
+* Schedule promotional campaigns
+* Improve customer service during peak periods
 
-**Bindha M**
+## 💡 Key Business Insights
 
-📌 GitHub Project: **Swiggy-Data-Dashboard**
+* The platform generates approximately *$53.01M in total sales*.
+* The *4.34 average rating* indicates strong customer satisfaction.
+* The *$268.51 Average Order Value* provides an opportunity to increase revenue through upselling and promotional strategies.
+* The *197K orders* indicate significant customer activity.
+* Monthly sales show fluctuations, highlighting opportunities for seasonal and month-specific strategies.
+* City-level sales comparison helps identify high-performing and growth markets.
+* Restaurant-level analysis can support partnership and promotional decisions.
+* Daily trends can help optimize operational capacity according to customer demand.
 
----
+## 📈 Management Recommendations
 
-⭐ If you find this project useful, consider giving the repository a star!
+### 1. Increase Average Order Value
 
+Introduce combo offers, cross-selling and personalized recommendations to encourage customers to add more items to each order.
+
+### 2. Strengthen High-Performing Cities
+
+Focus marketing, restaurant partnerships and delivery capacity on cities generating the highest sales.
+
+### 3. Improve Low-Performing Markets
+
+Analyze low-sales cities to identify challenges related to customer demand, restaurant availability, pricing and delivery operations.
+
+### 4. Optimize Restaurant Partnerships
+
+Provide additional visibility and promotional opportunities to high-performing restaurants while supporting lower-performing restaurants with targeted improvement strategies.
+
+### 5. Use Monthly Trends for Campaign Planning
+
+Use historical monthly performance to plan seasonal offers and targeted marketing campaigns during periods of lower demand.
+
+### 6. Monitor Customer Ratings
+
+Maintain the current strong rating level by continuously monitoring customer feedback, restaurant quality and delivery experience.
+
+### 7. Optimize Daily Operations
+
+Use daily sales patterns to allocate delivery capacity, staffing and restaurant resources according to demand.
+
+## 🎯 Overall Management Conclusion
+
+The Swiggy Sales & Order Analysis dashboard provides a consolidated view of *revenue, customer satisfaction, order volume, average order value, city performance, restaurant performance and sales trends*.
+
+The analysis indicates that revenue growth can be supported by increasing Average Order Value, strengthening high-performing markets, improving lower-performing areas and optimizing restaurant and delivery operations.
+
+By combining *sales performance + customer ratings + order trends + city analysis + restaurant performance*, management can make more informed decisions to improve revenue, customer experience and operational efficiency.
+
+## 🛠️ Tools Used
+
+* Microsoft Excel
+* Data Analysis
+* Data Visualization
+* Dashboard Development
+
+## 📌 Project Summary
+
+*Sales ↑ → Revenue Growth ↑*
+
+*Customer Rating ↑ → Customer Retention ↑*
+
+*Average Order Value ↑ → Revenue per Order ↑*
+
+*Order Volume ↑ → Market Demand ↑*
+
+*High-Performing Cities & Restaurants → Targeted Business Growth*
+
+Overall, the dashboard transforms Swiggy sales and order data into actionable business insights for *revenue growth, customer experience improvement, market expansion and operational optimization*.
